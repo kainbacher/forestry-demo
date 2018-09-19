@@ -2,4 +2,10 @@
 label: Gallery
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: text
+  name: title
+  label: Title
+- type: image_gallery
+  name: images
+  label: Images
